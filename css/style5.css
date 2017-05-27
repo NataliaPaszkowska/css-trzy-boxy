@@ -1,0 +1,40 @@
+.kwadrat {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.czerwony {
+    background-color: red;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+
+.czerwony:hover {
+    width: 300px;
+}
+.niebieski {
+    background-color: blue;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+.niebieski:hover {
+    height: 300px;
+}
+.zielony {
+    background-color: green;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+}
+.zielony:hover {
+    width: 300px;
+    height: 300px;
+}
