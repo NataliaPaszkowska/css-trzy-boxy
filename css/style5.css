@@ -8,10 +8,7 @@
 
 .czerwony {
     background-color: red;
-    transition-property: all;
-    transition-duration: 5s;
-    transition-timing-function: linear;
-    transition-delay: 0.5s;
+    transition: all 1s ease 0.5s 
 }
 
 .czerwony:hover {
@@ -20,7 +17,7 @@
 .niebieski {
     background-color: blue;
     transition-property: all;
-    transition-duration: 5s;
+    transition-duration: 2s;
     transition-timing-function: linear;
     transition-delay: 0.5s;
 }
@@ -30,11 +27,12 @@
 .zielony {
     background-color: green;
     transition-property: all;
-    transition-duration: 5s;
+    transition-duration: 1s;
     transition-timing-function: linear;
     transition-delay: 0.5s;
 }
 .zielony:hover {
     width: 300px;
     height: 300px;
+    transform: rotate(360deg);
 }
